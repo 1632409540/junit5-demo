@@ -61,7 +61,7 @@ public class CalculatorTest {
     @Test
     @Disabled("assertAll null")
     @DisplayName("assertAll Test")
-//使用 assertAll 分组断言
+    //使用 assertAll 分组断言
     void groupedAssertions() {
         Address address = new Address();
         assertAll("address name",
